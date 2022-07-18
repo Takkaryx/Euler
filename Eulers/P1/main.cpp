@@ -15,14 +15,17 @@ int main()
 		if (number % 15 == 0)
 		{
 			totalsum += number;
+			cout << "number: " << number << endl;
 		}
 		else if (number % 5 == 0)
 		{
 			totalsum += number;
+			cout << "number: " << number << endl;
 		}
 		else if (number % 3 == 0)
 		{
 			totalsum += number;
+			cout << "number: " << number << endl;
 		}
 	}
 	cout << "Sum total: " << totalsum << endl;
